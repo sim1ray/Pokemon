@@ -1,0 +1,42 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #F0F0F0;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+table, th, td {
+    width: 80%;
+    text-align: center;
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+}
+
+a:hover {
+    color: red;
+}
+
+a {
+    color: black;
+}
+
+ul {
+    list-style-type: circle;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 15px;
+}
