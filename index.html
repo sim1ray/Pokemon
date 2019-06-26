@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pokemon Chart</title>
+
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="./pokemon.css">
+	</head>
+	
+	<body id="fade_in">
+		<h1>First Gen Pokemon</h1>
+		<table id="">
+			<thead>
+				<tr>
+					<th>Image</th>
+					<th>Name</th>
+					<th>Type</th>
+					<th>Evolves Into</th>
+					<th>More Info</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png">
+					</td>
+					<td>
+						<a href="https://pokemon.fandom.com/wiki/Bulbasaur">Bulbasaur</a>
+					</td>
+					<td>
+						<ul>
+							<li>Grass</li>
+							<li>Poison</li>
+						</ul>
+					</td>
+					<td>
+						<a href="http://pokemon.wikia.com/wiki/Ivysaur">Ivysaur</a>
+					</td>
+					<td>
+						<button id="bulbasaur_button">Bulbasaur</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"
+							id="charmander_img">
+					</td>
+					<td>
+						<a href="http://pokemon.wikia.com/wiki/Charmander" id="charmander_text">Charmander</a>
+					</td>
+					<td>
+						<ul>
+							<li id="charmander_type">Fire</li>
+						</ul>
+					</td>
+					<td>
+						<a href="http://pokemon.wikia.com/wiki/Charmeleon">Charmeleon</a>
+					</td>
+					<td>
+						<button id="charmeleon_button" data-dismiss="modal">Charmander</button>
+					</td>
+				</tr>
+				<tr id="">
+					<td>
+						<img src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png"
+							id="squirtle_img">
+					</td>
+					<td>
+						<a href="http://pokemon.wikia.com/wiki/Squirtle" id="squirtle_text">Squirtle</a>
+					</td>
+					<td>
+						<ul>
+							<li id="squirtle_type">Water</li>
+						</ul>
+					</td>
+					<td>
+						<a href="http://pokemon.wikia.com/wiki/Wartortle" id="squirtle_evolve">Wartortle</a>
+					</td>
+					<td>
+						<button id="squirtle_button">Squirtle</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+	<script src="script.js"></script>
+</html>
